@@ -444,99 +444,17 @@ address {
 }
 
 .map-card {
-  aspect-ratio: 0.86;
-  background: #eef3f6;
   border: 1px solid #d4dde2;
   border-radius: 8px;
   box-shadow: var(--shadow);
   overflow: hidden;
-  position: relative;
-}
-
-.road {
-  align-items: center;
-  background: #aebfc8;
-  border: 6px solid #d9e3e8;
-  color: #4d6875;
   display: flex;
-  font-size: clamp(0.75rem, 1.6vw, 1rem);
-  font-weight: 900;
-  justify-content: center;
-  position: absolute;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 }
 
-.road-armando {
-  height: 4.4rem;
-  left: -7%;
-  top: 15%;
-  transform: rotate(-36deg);
-  width: 58%;
-}
-
-.road-h {
-  height: 4rem;
-  right: -9%;
-  top: 6%;
-  transform: rotate(88deg);
-  width: 84%;
-}
-
-.road-caetes {
-  height: 3.8rem;
-  left: -3%;
-  top: 30%;
-  transform: rotate(88deg);
-  width: 52%;
-}
-
-.road-trinta {
-  bottom: 9%;
-  height: 3.9rem;
-  right: -9%;
-  transform: rotate(88deg);
-  width: 60%;
-}
-
-.building {
-  background: #dfe7eb;
-  border: 1px solid #cbd6dc;
-  color: #7a45c4;
-  font-size: 0.92rem;
-  font-weight: 800;
-  padding: 0.55rem;
-  position: absolute;
-  text-align: center;
-}
-
-.building-csu {
-  right: 24%;
-  top: 38%;
-  width: 32%;
-}
-
-.building-icea {
-  bottom: 13%;
-  color: var(--red);
-  left: 30%;
-  width: 30%;
-}
-
-.garden-area {
-  align-items: center;
-  background: rgba(196, 51, 47, 0.08);
-  border: 5px solid var(--red);
-  color: var(--red);
-  display: flex;
-  font-size: 0.9rem;
-  font-weight: 900;
-  height: 19%;
-  justify-content: center;
-  left: 19%;
-  position: absolute;
-  top: 30%;
-  transform: rotate(-31deg);
-  width: 18%;
+.map-card img {
+  display: block;
+  height: auto;
+  width: 100%;
 }
 
 .timeline {
@@ -741,10 +659,6 @@ address {
   .project-row {
     grid-template-columns: 1fr;
     gap: 0.4rem;
-  }
-
-  .map-card {
-    min-height: 430px;
   }
 
   .site-footer {
