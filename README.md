@@ -2,6 +2,8 @@
 
 Site estático do programa de extensão comunitária Horta Viva ICEA/UFOP.
 
+Responsável pelo programa: Prof. Herson de Oliveira Peixoto, Departamento de Ciências Exatas e Aplicadas - DECEA, herson@ufop.edu.br.
+
 ## Publicação no GitHub Pages
 
 O repositório está preparado para publicação direta pelo GitHub Pages usando a branch principal e a pasta raiz.
