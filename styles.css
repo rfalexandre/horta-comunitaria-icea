@@ -444,6 +444,8 @@ address {
 }
 
 .map-card {
+  justify-self: end;
+  max-width: 520px;
   border: 1px solid #d4dde2;
   border-radius: 8px;
   box-shadow: var(--shadow);
@@ -594,6 +596,11 @@ address {
   .partners-section,
   .participate-panel {
     grid-template-columns: 1fr;
+  }
+
+  .map-card {
+    justify-self: stretch;
+    max-width: none;
   }
 
   .pillar-grid,
